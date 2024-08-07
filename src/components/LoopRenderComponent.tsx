@@ -1,6 +1,11 @@
 import { People } from "./utils/data";
 
-const LoopRenderComponent = ({ name, age, profession, isAdult }: People) => {
+export const LoopRenderComponent = ({
+  name,
+  age,
+  profession,
+  isAdult,
+}: People) => {
   return (
     <div>
       LoopRenderComponent
@@ -11,5 +16,3 @@ const LoopRenderComponent = ({ name, age, profession, isAdult }: People) => {
     </div>
   );
 };
-
-export default LoopRenderComponent;
